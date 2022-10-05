@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 1440px;
+    min-width: 700px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo */
+header {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.header-blue {
+    color: #3E45E8;
+}
+
+.header-yellow {
+    color: #E8C23E;
+}
+
+/* First section */
+.section-header {
+    background-image: url("../images/фонове\ зображення.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-header img {
+    margin: 238px 20px 238px 80px;
+    width: 23px;
+    height: 290px;
+}
+
+.section-header h1 {
+    font-size: 48px;
+    line-height: 76px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* Second section */
+.section-cards h2 {
+    font-size: 40px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 5px 80px;
+}
+
+.section-cards>img {
+    width: 779px;
+    height: 12px;
+    margin-bottom: 30px;
+}
+
+.section-cards .cards {
+    margin: 0 80px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-cards .cards>div {
+    height: 481px;
+    border: 5px solid #0D095F;
+    border-radius: 35px;
+}
+
+.first-card {
+    box-shadow: -16px 21px 40px rgba(0, 209, 255, 0.35);
+}
+
+.second-card {
+    box-shadow: 0px 21px 35px rgba(0, 209, 255, 0.35);
+}
+
+.third-card {
+    box-shadow: 16px 21px 40px rgba(0, 209, 255, 0.35);
+}
+
+.section-cards .cards>div>img {
+    width: 391px;
+}
+
+.text-card-blue {
+    font-size: 24px;
+    line-height: 38px;
+    color: #0072DB;
+    margin: 15px 0 15px 10px;
+}
+
+.text-card-yellow {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FF9900;
+    margin-left: 10px;
+}
+
+.section-cards {
+    margin-bottom: 50px;
+}
+
+/* Section map and button */
+.section-button>h2 {
+    font-size: 40px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.section-button hr {
+    width: 592px;
+    height: 7px;
+    background-color: #1400FF;
+    margin: 0 auto 30px;
+}
+
+.section-button img {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-button button {
+    height: 81px;
+    width: 499px;
+    border-radius: 50px;
+    background-color: #2A61F0;
+    border: none;
+    color: white;
+    font-size: 64px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 50px;
+}
+
+.section-button button:hover {
+    background: #E8C23E;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0 30px;
+    background: linear-gradient(#013235, #0D0661);
+}
+
+footer .footer-mail-tel a {
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #A89D9D;
+}
+
+footer .footer-mail-tel:nth-child(3) {
+    margin: 8px 0;
+}
+
+
+footer .footer-link a:nth-child(2) {
+    margin: 0 28px;
+}
