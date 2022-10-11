@@ -1,0 +1,117 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("../images/фон.png");
+    width: 100%;
+    height: 700px;
+}
+
+.header div {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 144px;
+}
+
+.card-menu {
+    width: 85%;
+    margin: 0 auto 40px;
+}
+
+.card-menu h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 32px 0;
+}
+
+.card-menu__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.card-menu__card {
+    width: 400px;
+    height: 460px;
+    background-color: #231B0C;
+}
+
+.card-menu__image {
+    width: 100%;
+    height: 595px;
+    background-image: url("../images/фото.png");
+
+}
+
+.card-menu_card-name {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card-menu_card-image {
+    margin: 90px 50px 70px;
+}
+
+footer {
+    background-color: #150F02;
+}
+
+.footer {
+    width: 603px;
+    margin: 0 auto;
+    padding: 40px 0 60px;
+}
+
+.footer__list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list-item ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer__list-item ul li {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: semi-bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer hr {
+    width: 318px;
+    height: 10px;
+    background-color: #FF6B00;
+    border: none;
+    margin: 5px auto 20px;
+}
+
+.social-network {
+    width: 161px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
