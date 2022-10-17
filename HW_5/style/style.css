@@ -1,0 +1,434 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #353C57;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+
+.container {
+    width: 100%;
+    height: 65px;
+    background-color: #243B93;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 50px;
+    margin-top: 7px;
+}
+
+.header-nav {
+    width: 850px;
+    margin-left: 40px;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-lang {
+    width: 109px;
+    height: 50px;
+    margin-top: 7px;
+}
+
+.header-lang p {
+    margin: 0;
+    float: right;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+/* Under Header */
+.under-header {
+    height: 85px;
+    background-color: #BFF0FF;
+}
+
+.under-header>div {
+    height: inherit;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.under-header>div>h1 {
+    font-size: 44px;
+    line-height: 57px;
+    color: #202846;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 14px;
+}
+
+/* MAIN */
+main {
+    background-color: #FBE4FF;
+}
+
+.main_container {
+    background-color: #FBE4FF;
+    padding: 30px 0;
+    height: 117px;
+}
+
+.main__line {
+    background-color: #FFFFFF;
+    width: 1320px;
+    height: 57px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main__line>p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.main__line svg {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    padding-top: 10px;
+    width: 34px;
+    height: 33px;
+}
+
+/* main-cards */
+
+.main__container-card {
+    width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    columns: 1;
+    row-gap: 42px;
+}
+
+.main__card {
+    height: 300px;
+    background: linear-gradient(92.95deg, #ADCBD5 0%, #00AEE6 100%);
+    display: flex;
+    position: relative;
+}
+
+.main__card img {
+    height: 246px;
+    width: 447px;
+    margin: 33px 30px 21px 52px;
+}
+
+.main__card-text {
+    margin: 14px 53px 21px 0;
+}
+
+.main__card-text h2 {
+    font-size: 36px;
+    line-height: 47px;
+    color: #353C57;
+    margin: 0;
+}
+
+.main__card-text hr {
+    height: 3px;
+    width: 739px;
+    background-color: #FFFFFF;
+    border: none;
+    margin: 0 0 10px;
+}
+
+.main__card .main__card-text-paragraph {
+    height: 205px;
+    width: 739px;
+    background-color: #EDFBFF;
+    padding: 15px;
+}
+
+.main__card .main__card-text-paragraph p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #202846;
+    margin: 0;
+}
+
+.main__card button {
+    width: 210px;
+    height: 46px;
+    border-radius: 30px;
+    border: none;
+    background-color: #243B93;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    position: absolute;
+    right: -33px;
+    bottom: 11px;
+}
+
+.main__card svg {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    fill: white;
+}
+
+/* main:hover */
+.main__card:hover {
+    background: #2CBDEB;
+    box-shadow: 0 0 60px 4px #2CBDEB;
+}
+
+.main__card:hover button {
+    background-color: #EF075B;
+}
+
+.main__card:hover svg {
+    fill: #FFF500;
+}
+
+/* Особистий кабінет - line*/
+.line-own-class {
+    height: 85px;
+    background: linear-gradient(90deg, #FFE601, #55D6FF);
+    margin: 42px 0;
+}
+
+.line-own-class>div {
+    width: 1320px;
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 57px;
+    font-weight: 400;
+    color: #243B93;
+    padding-top: 14px;
+
+}
+
+/* Особистий кабінет - user information */
+
+.main__user-info {
+    width: 1320px;
+    height: 498px;
+    margin: 0 auto;
+    background: linear-gradient(#859EFF, rgba(105, 255, 210, 0.5));
+    display: flex;
+}
+
+.main__user-info_foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.main__user-info_foto img {
+    width: 196px;
+    height: 184px;
+    margin-bottom: 35px;
+    margin-left: 167px;
+}
+
+.main__user-info_foto button {
+    width: 250px;
+    height: 50px;
+    margin-left: 148px;
+    border-radius: 30px;
+    border: none;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    background-color: #EF075B;
+
+}
+
+.main__user-info_foto button:nth-of-type(1) {
+    background-color: #243B93;
+    margin-bottom: 25px;
+}
+
+.main__user-info_name {
+    width: 60%;
+    margin: auto 0;
+}
+
+.main__user-info_name p {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 47px;
+    color: 353C57;
+}
+
+.main__user-info_name p span {
+    font-weight: 400;
+}
+
+.main__user-info_name hr {
+    width: 712px;
+    height: 3px;
+    border: none;
+    background-color: #FFFFFF;
+    margin: 19px 0;
+}
+
+
+/* Button Вийти */
+.main__button-exit {
+    width: 174px;
+    margin: 24px auto 0;
+}
+
+.main__button-exit button {
+    width: 174px;
+    height: 50px;
+    background-color: #243B93;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* line-contact */
+
+.line-contact {
+    height: 85px;
+    background: linear-gradient(90deg, #55D6FF, #FFE601);
+    margin: 56px 0 25px;
+}
+
+.line-contact>div {
+    width: 1320px;
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 57px;
+    font-weight: 400;
+    color: #243B93;
+    padding-top: 14px;
+}
+
+/* Contacts */
+.main__contacts {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main__contacts_phone {
+    width: 60%;
+    height: 190px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 56px;
+    row-gap: 16px;
+}
+
+.main__contacts_phone div p {
+    margin: 0;
+    font-size: 32px;
+    line-height: 41px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+.main__contacts_phone div hr {
+    background-color: #202846;
+    height: 3px;
+    width: 244px;
+    margin: 4px 0 0;
+    border: none;
+}
+
+.main__contacts_phone div:nth-child(2) hr {
+    width: 264px;
+}
+
+.main__contacts_phone div:nth-child(3) hr {
+    width: 386px;
+}
+
+.main__contacts_phone div p a {
+    margin: 0;
+    font-size: 30px;
+    line-height: 39px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+.main__contacts_map {
+    width: 40%;
+}
+
+.main__contacts_map iframe {
+    width: 100%;
+    height: 290px;
+    border-radius: 40px;
+    border: 3px solid #243B93;
+    margin-bottom: 23px;
+}
+
+/* footer */
+footer {
+    height: 65px;
+    background-color: #243B93;
+}
+
+footer p {
+    margin: 0 auto;
+    padding-top: 23px;
+    max-width: 1320px;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
