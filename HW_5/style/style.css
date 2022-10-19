@@ -416,6 +416,20 @@ main {
     margin-bottom: 23px;
 }
 
+/* arrow fixt */
+.arrow-fixt {
+    width: 101px;
+    height: 101px;
+    background: rgba(48, 12, 106, 0.3);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 150px;
+    right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer */
 footer {
     height: 65px;
